@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.danger-icon {
+  background-color: #fff1bb;
+  padding: 5px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.danger-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.top-header {
+  background-color: #866d36;
+  border-bottom: 1px solid black;
+}
+
+.picks {
+  color: #fff1bb;
+}
+
+.button-header {
+  background-color: #fffbfb;
+  font-size: 10px;
+  padding: 2px 5px;
+  border: 1px solid #666;
+}
+
+.tapped-in {
+  font-size: 12px;
+}
+
+.brick {
+  height: 16px;
+  width: 0.5px;
+  background-color: black;
+}
+
+.right-flex {
+  color: #999999;
+  font-weight: 800;
+}
+
+#tapology-logo {
+  width: 271px;
+  height: 43px;
+}
+
+.search {
+  padding: 6px;
+  background-color: #c1320b;
+  border-radius: 5px;
+  height: 55px;
+}
+
+.search-input {
+  height: 20px;
+  outline: none;
+  border: 0;
+}
+
+.search-button {
+  font-size: 10px;
+  padding: 2px;
+}
+
+.three-choices {
+  font-size: 13px;
+}
+
+.three-choices p {
+  position: relative;
+}
+
+.three-choices p.selected::before {
+  content: "";
+  background: url("https://www.tapology.com/assets/shared/search_select-d2b1a4c93a146503736b71d6fa7d48a65630ad067223295ad857e2306551ff48.png");
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 19px;
+  height: 19px;
+  background-repeat: no-repeat;
+  top: -5px;
+}
+
+.pause-button {
+  background-color: #cd513c;
+  height: 100%;
+  color: white;
+  padding: 4px;
+}
+
+.inside-search {
+  background-color: #f2f2f2;
+}
+
+.right-my-picks {
+  background-color: #f2f2f2;
+}
+
+.after-tapology::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  border-radius: 0 0 25px 25px;
+  left: 0;
+  background-color: #dfdfdf;
+}
+
+.arrow-up {
+  position: relative;
+}
+
+.arrow-up div.active {
+  position: relative;
+}
+
+.arrow-up div.active::after {
+  content: "";
+  position: absolute;
+  color: #000;
+  background: url("https://www.tapology.com/assets/shared/tab_selected-4caea8678911c5cb3169b97ec2bb96d3ec03914ad531d1ffe6744dc63a0f1d3c.png")
+    no-repeat center bottom;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 19px;
+  height: 19px;
+  top: 10px;
+}
